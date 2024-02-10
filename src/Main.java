@@ -17,6 +17,7 @@ public class Main {
     // Метод для нахождения суммы чисел от 1 до N
     private static int calculateSum(int n) {
         int sum = 0;
+        int c=2;
         for (int i = 1; i <= n; i++) {
             sum += i;
         }
